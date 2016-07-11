@@ -1,0 +1,82 @@
+console.log("*Problem 1");
+for (i = 0; i < 1001; i += 100) {
+	console.log(i);
+}
+
+console.log("*Problem 2");
+for (i = 1; i < 129; i*=2) {
+  console.log(i);
+}
+
+console.log("*Problem 3");
+for (i = 0; i < 11; i+=2) {
+  console.log(i);
+}
+
+console.log("*Problem 4");
+for (i = 3; i <= 15; i+=3) {
+  console.log(i);
+}
+
+console.log("*Problem 5");
+for (i=10; i > 0; i--) {
+  console.log(i);
+}
+
+console.log("*Problem 6");
+for (i = 1; i <=4; i++) {
+  console.log(i);
+  console.log(i);
+  console.log(i);
+}
+
+console.log("*Problem 7");
+var zeroToFour = function() {
+for (i=0; i < 5; i++) {
+  console.log(i);
+}
+};
+zeroToFour();
+zeroToFour();
+zeroToFour();
+
+console.log("*Problem 8.1");
+for (i=1; i <=25; i++) {
+  if (i % 2 === 0) {
+    console.log(i + " is an even number.");
+  } else {
+    console.log(i + " is an odd number.");
+  }
+}
+
+console.log("Problem 8.2");
+count = 1;
+for (i = 1; i <= 50; i++) {
+	if ((i % 5 === 0) && (i % 3 === 0)) {
+		console.log("FIZZBUZZ");
+	}
+	else if (i % 3 === 0) {
+	console.log("FIZZ");
+	}
+	else if (i % 5 === 0) {
+		console.log ("BUZZ");
+}
+	else {
+		console.log(i);
+		count++;
+	}
+}
+
+console.log("*Problem 8.3");
+for (i=0; i <=1000; i++) {
+  if (i % 3 === 0) {
+    console.log(i+=i);
+  }
+}
+
+console.log("Problem 8.4");
+var pound = "#";
+for (i = 1; i < 7; i+=1) {
+  console.log(pound);
+  pound+="#";
+}
