@@ -31,14 +31,11 @@ for (i = 1; i <=4; i++) {
 }
 
 console.log("*Problem 7");
-var zeroToFour = function() {
-for (i=0; i < 5; i++) {
-  console.log(i);
+for (i=0; i < 3; i++) {
+  for (j=0; j <= 4; j++) {
+    console.log(j);
+  }
 }
-};
-zeroToFour();
-zeroToFour();
-zeroToFour();
 
 console.log("*Problem 8.1");
 for (i=1; i <=25; i++) {
